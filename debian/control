@@ -3,17 +3,17 @@ Section: perl
 Priority: optional
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Damyan Ivanov <dmn@debian.org>
-Build-Depends: debhelper (>= 7), libssl-dev
-Standards-Version: 3.8.1
+Build-Depends: debhelper (>= 9), libssl-dev
+Standards-Version: 3.9.3
 Homepage: http://perl-openssl.sourceforge.net/
-Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libcrypt-openssl-bignum-perl/
-Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/libcrypt-openssl-bignum-perl/
+Vcs-Git: git://git.debian.org/pkg-perl/packages/libcrypt-openssl-bignum-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libcrypt-openssl-bignum-perl.git
 
 Package: libcrypt-openssl-bignum-perl
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Description: Access OpenSSL multiprecision integer arithmetic libraries
  Presently, many though not all of the arithmetic operations that OpenSSL
- provides are exposed to perl cia Crypt::OpenSSL::Bugnum.  In addition, this
+ provides are exposed to Perl via Crypt::OpenSSL::Bignum. In addition, this
  module can be used to provide access to bignum values produced by other
  OpenSSL modules, such as key parameters from Crypt::OpenSSL::RSA.

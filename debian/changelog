@@ -1,3 +1,23 @@
+libcrypt-openssl-bignum-perl (0.04-3) unstable; urgency=low
+
+  * Team upload
+
+  [ gregor herrmann ]
+  * debian/control: fix typo in long description; thanks to Erik Esterer for
+    the bug report (closes: #609696).
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ intrigeri ]
+  * Convert debian/copyright to DEP-5 format.
+  * Move to compat level 9.
+  * Bump Standards-Version to 3.9.3 (no change required).
+  * Minimize debian/rules.
+  * Explicitly use 3.0 (quilt) source format.
+
+ -- intrigeri <intrigeri@debian.org>  Sun, 10 Jun 2012 22:40:33 +0200
+
 libcrypt-openssl-bignum-perl (0.04-2) unstable; urgency=low
 
   [ Damyan Ivanov ]
