@@ -1,3 +1,18 @@
+libcrypt-openssl-bignum-perl (0.04-4) unstable; urgency=low
+
+  [ Xavier Guimard ]
+  * Bump Standards-Version to 3.9.4
+  * Use debhelper 9.20120312
+  * Update debian/copyright (years and upstream contact)
+  * Rename debian/docs into debian/libcrypt-openssl-bignum-perl.docs
+  * Update description
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+ -- Xavier Guimard <x.guimard@free.fr>  Thu, 04 Apr 2013 05:49:27 +0200
+
 libcrypt-openssl-bignum-perl (0.04-3) unstable; urgency=low
 
   * Team upload
